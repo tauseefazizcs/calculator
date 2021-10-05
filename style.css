@@ -86,7 +86,7 @@ button{
     color: #fff;
     text-align: center;
     padding: 20px;
-    margin-top: 183px;
+    margin-top: 190px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,7 +112,7 @@ button{
 
 /*  for mobile */
 
-@media (max-width:368px) {
+@media (max-width:400px) {
     .calculator{
         width:350px;
         flex-direction: column;
