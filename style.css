@@ -31,7 +31,7 @@ body{
 /*  calculator */
 .calculator{
     border: 1px solid white;
-    width: 50%;
+    width: 60%;
     background: #bcbcbc;
     margin: 0 auto;
     display: flex;
@@ -56,8 +56,69 @@ button{
     margin: 10px;
     font-size: 30px;
 }
-
 /* result */
-.result{
+#result{
+    width: 40%;
     margin: 10px;
+    background: #fff;
+    color: blue;
+    animation: slideinfromleft 1s ease-in;;
+}
+#output{
+    background: black;
+    margin: 60px;
+    padding: 30px;
+    color: #fff;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+#p-output{
+    margin-top: 15px;
+    padding: 5px;
+}
+
+/* footer */
+.footer{
+    height: 200px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer a{
+    color: #bcbcbc;
+    margin-left: 10px;
+}
+
+
+
+/* animation */
+
+@keyframes slideinfromleft{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+/*  for mobile */
+
+@media (max-width:368px) {
+    .calculator{
+        width:350px;
+        flex-direction: column;
+    }
+    #result{
+        width: 233px;
+        margin-left: 56px;
+    }
 }
