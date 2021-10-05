@@ -112,7 +112,7 @@ button{
 
 /*  for mobile */
 
-@media (max-width:400px) {
+@media (max-width:700px) {
     .calculator{
         width:350px;
         flex-direction: column;
