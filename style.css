@@ -8,12 +8,6 @@ body{
     background:#555;
 }
 
-/* container */
-.container{
-    /* display: flex;
-    flex-direction: column;
-    align-content: center; */
-}
 
 #nav{
     background: #333;
@@ -94,6 +88,9 @@ button{
 .footer a{
     color: #bcbcbc;
     margin-left: 10px;
+}
+.fab{
+    margin: 10px;
 }
 
 
