@@ -64,7 +64,8 @@ function division() {
   if(firstNum === '' || secondNum === ''){
       alert('Please enter both numbers');
   }else{
-      const result =  Number(firstNum) / Number(secondNum);
+      let result =  Number(firstNum) / Number(secondNum);
+      result = result.toFixed(2); // it rounded the number into two decimal places
       document.getElementById('p-output').innerHTML = 'The division of the two given numbers are : ';
       //displaying result
       document.getElementById('result').style.display = 'block';
